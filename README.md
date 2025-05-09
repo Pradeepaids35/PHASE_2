@@ -1,2 +1,84 @@
-# PHASE_2
-DECODING EMOTION THROUGH SENTIMENT ANALYSIS OF SOCIAL MEDIA CONVERSATION
+🚀 DECODING EMOTIONS THROUGH SENTIMENT ANALYSIS OF SOCIAL MEDIA CONVERSATIONS
+
+This project leverages Natural Language Processing (NLP) to decode emotional signals from social media conversations. By analyzing public posts from platforms like Twitter, Reddit, or other forums, the system identifies whether the sentiment expressed is Positive, Negative, or Neutral.
+
+The core engine uses the VADER Sentiment Analyzer, with added capabilities such as:
+
+Preprocessing unstructured text data
+
+Emotion classification
+
+Visualizing emotion distribution
+
+Generating a project workflow flowchart
+
+
+
+---
+
+🛠️ HOW TO RUN
+
+1. Install required libraries:
+pip install -r requirements.txt
+
+
+2. Run the main script:
+python emotion_analysis_bert_gui.py
+
+
+
+
+---
+
+📌 FEATURES
+
+Cleaned, normalized, and lemmatized text input
+
+Emoji-aware emotion detection using VADER
+
+Visual analytics using Seaborn and Matplotlib
+
+Pipeline flowchart generation with Graphviz
+
+Simple and clean GUI built with Tkinter
+
+
+
+---
+
+⚙️ REQUIREMENTS
+
+The following Python libraries are required:
+
+torch – for deep learning (BERT or model support)
+
+transformers – for pre-trained sentiment/emotion models
+
+tkinter – for GUI integration (comes with Python)
+
+matplotlib (optional) – for emotion distribution visualization
+
+
+To install all dependencies:
+pip install torch transformers matplotlib
+
+> Note: tkinter is typically pre-installed in most Python distributions. If missing, install it based on your OS.
+
+
+
+
+---
+
+📊 APPLICATIONS
+
+Public sentiment monitoring
+
+Brand and campaign feedback analysis
+
+Mental health signal tracking
+
+Real-time emotion dashboards
+
+
+
+---
